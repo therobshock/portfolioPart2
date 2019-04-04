@@ -1,0 +1,61 @@
+<!-- recreate portfolio with responsive grids and images. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- use boostrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>About Me</title>
+</head>
+<body style="background-color: black; color: white;">
+    <!-- have a navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark mb-3" style="background-color: #0d4b77;">
+        <a class="navbar-brand" href="index.html">Robert Bolton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+        </div>
+    </nav>
+    <!-- container with responsive grid -->
+    <div class="container mb-3 p-3">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12"><h1 class="border-bottom-light">About Me</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-2 col-sm-12" >
+                    <!-- responsive image -->
+                        <img src="images/Rob Shock BW.jpg" alt="bio" class="img-thumbnail img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-md-10 col-sm-12">
+                        <p>Frappecinos are magnificant! Cappecinos are marvelous! I wish I could marry it so that I could go to bed with it. But Hey what can I say? Do love to have marshmellows in your coffee? Not me but I'll try it. It actually sounds pretty good. So If I happen to have some of it and I can manage to remember it, in the morning when I have my cup I'll plunk in one or two. What do I have to lose? </p>
+                        <p>Donec sed justo pellentesque, dapibus nibh ut, tempor quam. Nullam commodo rhoncus risus rutrum faucibus. Suspendisse lobortis vehicula justo non lobortis. In vitae orci vitae odio volutpat tincidunt. Proin sem neque, vestibulum vel magna vitae, ornare varius ante. Nulla porta, nisl non accumsan convallis, elit purus vulputate odio, at lacinia felis orci in erat. Donec tincidunt vestibulum porttitor. Curabitur purus justo, dictum et consequat vel, blandit quis diam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12" >
+            <!-- responsive card -->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body" style="background-color: #0d4b77">
+                        <h5 class="card-title">Contact Robert</h5>
+                        <p class="card-text">Voicemail: (661) 703-6541</p>
+                        <a href="https://www.linkedin.com/in/robert-bolton-5b2777175/" class="card-link">LinkedIn</a>
+                        <a href="https://github.com/therobshock" class="card-link">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color:#0d4b77; width: 100%; height:50px; align-self: auto;"></footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
